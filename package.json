@@ -4,7 +4,8 @@
   "description": "Pregnancy & Baby Care System",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/PasindiWeerathunge/PregnancyBabyCare/issues"
   },
-  "homepage": "https://github.com/PasindiWeerathunge/PregnancyBabyCare#readme"
+  "homepage": "https://github.com/PasindiWeerathunge/PregnancyBabyCare#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
 }
