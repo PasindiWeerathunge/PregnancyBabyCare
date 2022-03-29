@@ -1,0 +1,19 @@
+{
+  "name": "pregnancybabycare",
+  "version": "1.0.0",
+  "description": "Pregnancy & Baby Care System",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PasindiWeerathunge/PregnancyBabyCare.git"
+  },
+  "author": "Pasindi Weerathunge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PasindiWeerathunge/PregnancyBabyCare/issues"
+  },
+  "homepage": "https://github.com/PasindiWeerathunge/PregnancyBabyCare#readme"
+}
