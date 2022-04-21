@@ -12,7 +12,7 @@ import { routesInit } from './api/routes';
 
 
 const app = express();
-const PORT = process.env.PORT || "9070";
+const PORT = process.env.PORT || "8090";
 
 app.use(cors());
 app.use(express.json({limit:"50mb"}));
@@ -34,7 +34,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.get("/", (req, res, next)=>{
-    res.send("<a href = 'http://localhost:9070/auth/google'>Login With Google</a>");
+    res.send("<a href = 'http://localhost:8090/auth/google'>Login With Google</a>");
 });
 
 app.listen(PORT, ()=> {
